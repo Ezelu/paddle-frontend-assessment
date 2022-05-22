@@ -1,3 +1,3 @@
-# WEB3BRIDGE Test
+# GRATIS Test
 
-This is a test by web3bridge in order to screen people into their new training batch. 
+This is an interview test by Gratis to test our frontend development skills
