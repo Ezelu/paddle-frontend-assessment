@@ -1,4 +1,131 @@
 
+.container {
+  background: #24292f;
+  padding: 2%;
+  display: flex;
+  margin-bottom: 3%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  box-shadow: 0 5px 5px black;
+}
+
+.img_container{
+  width: 20%;
+}
+
+.details {
+  width: 80%;
+  padding-left: 5%;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #24292f;
+}
+
+button {
+  color: #24292f;
+  background: whitesmoke;
+  outline: 0;
+  border: 0;
+  padding: 1% 3%;
+  margin-right: 2%;
+  font-size: 1em;
+}
+
+p{
+  margin: 2% 0;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+  .container {
+    padding: 4%;
+  }
+
+  span{
+    display: block;
+    margin-top: 3%;
+  }
+
+  .img_container{
+    width: 40%;
+  }
+  
+  .details {
+    width: 60%;
+    padding-left: 3%;
+  }
+
+  button{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 3%;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 500px) {
+  .container {
+    flex-direction: column;
+    padding: 4%;
+  }
+
+  .img_container, .details{
+    width: 100%;
+    padding: 4%;
+  }
+
+  h1 {
+    margin-bottom: 4%;
+  }
+
+  button{
+    width: 46%;
+    margin: 0 2% 3%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+@media (max-width: 350px){
+  button{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5%;
+  }
+}
