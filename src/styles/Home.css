@@ -1,0 +1,95 @@
+section#main{
+  background-color: rgb(33, 0, 65);
+  padding-top: 4%;
+  margin-top: -2%;
+  overflow: auto;
+  height: 100vh;
+}
+
+main h1 {
+  color: white;
+  font-size: 2.5em;
+}
+
+main {
+  margin: 7% 30%;
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  padding: 2% 10%;
+  justify-content: space-between;
+}
+
+.timer div {
+  background: white;
+  color: black;
+  padding: 5% 1%;
+  width: 100%;
+  margin: 0 3%;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.timer h4 {
+  font-size: 1.8em;
+}
+
+.timer span {
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+main p {
+  color: white;
+}
+
+main aside {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 10%;
+}
+
+main input.details {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  padding: 1%;
+  color: white;
+  width: 45%;
+  display: inline-block
+}
+
+
+main section {
+  background: white;
+  padding: 0% 5%;
+  padding-right: 0;
+  display: flex;
+  border-radius: 30px;
+  margin-top: 3%;
+  border: 0;
+  outline: 0;
+}
+
+main section input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  padding: 1%;
+  color: darkblue;
+  width: 70%;
+}
+
+main section button {
+  background: rgba(0, 0, 138, 0.9);
+  color: white;
+  flex: 1;
+  padding: 2% 1%;
+  margin: 0;
+  margin-left: auto;
+  border-radius: 30px;
+  font-size: 0.8em;
+}

@@ -162,7 +162,7 @@ export default function Main () {
 
   return (
     <Container width="70%">
-      <h1> Trending Repos </h1>
+      <h1 className='trending'> Trending Repos </h1>
 
       { loading ?
         <LinearProgress style={{margin: '5% 0%'}}/> :
