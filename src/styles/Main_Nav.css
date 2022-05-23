@@ -41,8 +41,11 @@
 
 
 /* Hide the Navigation when the screen is less than 600px */
-@media (max-width: 600px){
+@media (max-width: 700px){
   .nav li, button {
     display: none
   }
 }
+
+
+
