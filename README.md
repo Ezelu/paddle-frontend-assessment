@@ -1,3 +1,4 @@
-# GRATIS Test
+# POPULAR GITHUB REPOS
 
-This is an interview test by Gratis to test our frontend development skills
+This project provides the currunt popular and trending repositories on github using the github apis
+
