@@ -40,7 +40,18 @@ button {
 }
 
 p{
-  margin: 2% 0;
+  margin: 1.5% 0;
+  /* display: inline-block; */
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.fa {
+  font-size: 2em;
+  margin-right: 2%;
 }
 
 
@@ -58,9 +69,7 @@ p{
 
 
 
-
-
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .container {
     padding: 4%;
   }
